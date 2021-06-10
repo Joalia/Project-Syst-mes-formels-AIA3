@@ -46,6 +46,7 @@ INSTALLED_APPS = [
     'Consultations',
     'Antécédents_médicaux',
 
+
 ]
 
 MIDDLEWARE = [
