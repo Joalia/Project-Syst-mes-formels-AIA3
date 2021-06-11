@@ -20,6 +20,7 @@ from django.urls import path,include
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('',include('Acceuil.urls')),
+    path('Acceuil',include('Acceuil.urls')),
     path('Dashboard',include('Dashboard.urls')),
     path('app',include('app.urls')),
     path('Profil',include('Profil.urls')),
@@ -28,4 +29,11 @@ urlpatterns = [
     path('Consultations',include('Consultations.urls')),
     path('Fiche_medicale',include('Fiche_medicale.urls')),
     path('Whatsapp',include('Whatsapp.urls')),
+    path('Connexion',include('Deconnexion.urls')),
+    path('Connexion',include('Connexion.urls')),
+    path('Cycle_menstruel', include('Cycle_menstruel.urls')),
+    path('Help', include('Help.urls')),
+    path('Actu_sante', include('Actu_sante.urls')),
+    path('Soins_de', include('Soins_de.urls')),
+
 ]
