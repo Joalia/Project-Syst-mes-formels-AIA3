@@ -1,2 +1,2 @@
-# Project-Syst-mes-formels-AIA3
-Interface with Django
+# Project-Syst-mes-formels-AIA/GAP3
+Interface of a web application
